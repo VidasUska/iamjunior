@@ -1,0 +1,79 @@
+@import "./normalize.css";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+.title {
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selections {
+  display: flex;
+  margin: 2rem;
+}
+.select {
+  font-size: 2rem;
+  color: white;
+  width: 13rem;
+}
+
+.logo {
+  padding: 0.5rem 2rem 2rem 2rem;
+}
+
+.main-container {
+  background-color: yellow;
+  color: blue;
+  height: 40rem;
+  padding: 2rem;
+}
+
+.text {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 20rem;
+}
+
+.cards {
+  width: 20rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem;
+}
+
+.foot {
+  background-color: blue;
+}
+
+.element {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.origin {
+  font-size: 1.5rem;
+  color: white;
+  width: 20rem;
+  padding: 1rem;
+}
